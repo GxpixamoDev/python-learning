@@ -18,4 +18,6 @@ else:
     print("Invalid operation")
 
 
-print("The result is: " + str(result))
+if decision in ["add", "subtract", "multiply", "divide"]:
+    print("The result is: " + str(result))
+
